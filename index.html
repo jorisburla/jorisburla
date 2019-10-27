@@ -13,6 +13,7 @@
         grid-template-columns: 400px 400px 400px 400px 400px 400px 400px 400px;
         grid-gap: 2px;
         background: red;
+        padding: 10px;
      }
 </style>
       
@@ -32,18 +33,24 @@
    <img id=bild1 src=https://jorisburla.github.io/jorisburla/02_Burla_Apollo_11_Star_Chart_2019.jpg>
     <style>
      #bild1 {
-       grid-row-start: 2;
+       grid-row-start: 3;
+       grid-row-end: 4;
        grid-column-start: 2;
-       width: 300px;
+       grid-column-end: 4;
+       width: 400px;
       }
     </style>
     
     <img id=bild2 src=https://jorisburla.github.io/jorisburla/06_Burla_Civil_Service_2018.jpg>
     <style>
      #bild2 {
-       grid-row-start: 3;
-       grid-column-start: 4;
-       width: 700px;
+       grid-row-start: 4;
+       grid-row-end: 5;
+       grid-column-start: 5;
+       grid-column-end: 9;
+       height: 300px;
+       margin-left: auto;
+       margin-right: auto;
       }
     </style>
     
@@ -51,7 +58,9 @@
     <style>
      #bild3 {
        grid-row-start: 4;
+       grid-row-end: 5;
        grid-column-start: 1;
+       grid-column-end: 2;
        width: 300px;
       }
     </style>
