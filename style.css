@@ -1,19 +1,20 @@
 * {
   box-sizing: border-box;
-  background-image: url("https://raw.githubusercontent.com/jorisburla/jorisburla/gh-pages/Background.jpg");
+  background-image: url(https://raw.githubusercontent.com/jorisburla/jorisburla/gh-pages/Background.jpg);
 }
 
 h1 {
   text-align: center;
   font-family: 'Playfair Display', serif;
-  font-size: 2.5em;
-  padding: 0.3em;
+  font-size: 4em;
+  padding: 0.6em;
 }
 
 ul {
   display: flex;
   justify-content: space-between;
-  width: 10em;
+  width: 20em;
+  align-items: center;
   font-family: 'Roboto Slab', serif;
   font-size: 0.7em;
 }
