@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  background-image: url();
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  padding: 0.3em;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 10em;
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.7em;
+}
